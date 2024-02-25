@@ -92,7 +92,3 @@ def similarity(output, actual):
             true += 1
     similarity_acc = true/len(output)
     return similarity_acc, true, len(output)
-
-# output = ["test", "1328/ /038"]
-# actual = ["test1.", "1328/038"]
-# similarity(output, actual)

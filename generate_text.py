@@ -323,7 +323,6 @@ def load_synthetic_data():
         synthetic_list.append([text, filenumber])
     return synthetic_list
 
-
 # Texts
 real = True
 if real == False:
